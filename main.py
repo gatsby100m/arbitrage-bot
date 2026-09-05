@@ -7,8 +7,7 @@ import os
 # ============================================
 # CONFIGURATION
 # ============================================
-# Get token from environment variable (Railway will set this)
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TOKEN = "8661867566:A4HVg04yXsYI2tb0ZEW0cK5G3vzYH44hmvY"
 
 if not TOKEN:
     raise ValueError("No TELEGRAM_BOT_TOKEN found! Set it in Railway variables.")
